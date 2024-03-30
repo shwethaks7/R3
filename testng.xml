@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Rates">
+    <listeners>
+<listener class-name="r3.utilities.R3TestFlowListener"></listener>
+</listeners> 
+     <test thread-count="5" name="Test">
+   <classes>
+   <class name="r3.tests.rateTests"></class>
+   </classes>
+  </test> <!-- Test -->
+    </suite> <!-- Suite -->
