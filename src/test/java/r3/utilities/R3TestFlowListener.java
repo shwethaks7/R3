@@ -15,7 +15,7 @@ public class R3TestFlowListener implements ITestListener{
 	ThreadLocal<ExtentTest> t1 = new ThreadLocal<ExtentTest>();
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub		
-		//using local thread
+		//hello
 		ext1 = extRep.createTest(result.getMethod().getMethodName());
 		t1.set(ext1);
 				
