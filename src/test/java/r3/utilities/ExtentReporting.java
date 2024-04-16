@@ -13,7 +13,8 @@ static public ExtentReports reporting() {
 		extent.config().setReportName("Rate test result");
 		ExtentReports extentRep = new ExtentReports();
 		extentRep.attachReporter(extent);
-		extentRep.setSystemInfo("tester", "shwetha");			
+		extentRep.setSystemInfo("tester", "shwetha");
+//extent report			
 		return extentRep;		
 
 	}
